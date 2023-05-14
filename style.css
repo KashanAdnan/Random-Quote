@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: #fff;
+    background-color: tomato;
+    border: 1px solid tomato;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.5s;
+    padding: 10px 30px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+    h1{
+        font-size: 15px;
+        background-color: tomato;
+        border-radius: 10px;
+        width: 800px;
+        padding: 10px 30px;
+        color: #fff;
+        font-weight: 300;
+        margin: 19px;
+    }
